@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.navBar{
+    background-color: #2C3D55;
+    overflow: hidden;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navBar a{
+    padding: 15px;    
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid #747373;
+}
+.navBar a:hover{
+    background-color: #536271;
+}
+.current{
+    background-color: #536271;
+}
