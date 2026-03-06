@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+#index{
+    background-image: url(../img/code.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navBar{
+    background-color: #2C3D55;
+    overflow: hidden;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navBar{
+    border: #747373 1px solid;
+    border-top: #747373 0 solid;
+    position: sticky;
+    top: 0;
+}
+.navBar a{
+    padding: 15px;    
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid #747373;
+}
+.navBar a:hover{
+    background-color: #536271;
+}
+.current{
+    background-color: #536271;
+}
+.start{
+    text-align: center;
+    color: white;
+}
+
+.flexdiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.container{
+    margin-top: 10%;
+    background-color: #2C3D55;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    padding: 15px;
+    border-top: #747373 solid 1px;
+}
+.padding-bottom{
+    height: auto;
+    flex: 1;
+    margin-top: 0;
+    border-top: none;
+}
+.startText{
+    padding: 15px;
+    border: #747373 solid 1px;
+    border-radius: 20px;
+    background-color: #536271;
+}
+.startText h2{
+    text-align: center;
+}
+.linkKnop{
+    background-color: #747373;
+    border: solid 1px #747373;
+    border-radius: 20px;
+    width: max-content;
+    padding: 10px;
+    color: blue;
+    margin: 0 auto;
+}
+.linkKnop a:visited{
+    color: blue;
+}
