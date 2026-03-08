@@ -1,103 +1,148 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin: 0px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0;
 }
-#index{
-    background-image: url(../img/code.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+#index {
+  background-image: url(../img/code.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-#contact{
-    background-color: #2C3D55;
+#contact {
+  background-color: #2c3d55;
 }
-.navBar{
-    background-color: #2C3D55;
-    overflow: hidden;
+#cv {
+  background-color: white;
 }
-ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+.navBar {
+  background-color: #2c3d55;
+  overflow: hidden;
 }
-.navBar{
-    border: #747373 1px solid;
-    border-top: #747373 0 solid;
-    position: sticky;
-    top: 0;
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
-.navBar a{
-    padding: 15px;    
-    float: left;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-right: 1px solid #747373;
+.navBar {
+  border: #747373 1px solid;
+  border-top: #747373 0 solid;
+  position: sticky;
+  top: 0;
 }
-.navBar a:hover{
-    background-color: #536271;
+.navBar a {
+  padding: 15px;
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-right: 1px solid #747373;
 }
-.current{
-    background-color: #536271;
+.navBar a:hover {
+  background-color: #536271;
 }
-.hoofdTitel{
-    text-align: center;
-    color: white;
+.current {
+  background-color: #536271;
 }
-
-.flexdiv{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
+.hoofdTitel {
+  text-align: center;
+  color: white;
 }
-.container{
-    margin-top: 10%;
-    background-color: #2C3D55;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 50px;
-    padding: 15px;
-    border-top: #747373 solid 1px;
+.flexdiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
 }
-.contact-div{
-    background-color: #536271;
-    border: none;
-    margin-top: auto;
-    grid-template-columns: 25% auto;
+.container {
+  margin-top: 10%;
+  background-color: #2c3d55;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+  padding: 15px;
+  border-top: #747373 solid 1px;
 }
-.padding-bottom{
-    height: auto;
-    flex: 1;
-    margin-top: 0;
-    border-top: none;
+.contact-div {
+  background-color: #536271;
+  border: none;
+  margin-top: auto;
+  grid-template-columns: 25% auto;
 }
-.startText{
-    padding: 15px;
-    border: #747373 solid 1px;
-    border-radius: 20px;
-    background-color: #536271;
+.padding-bottom {
+  height: auto;
+  flex: 1;
+  margin-top: 0;
+  border-top: none;
 }
-.startText h2{
-    text-align: center;
+.container-cv {
+  grid-gap: 0;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  grid-template-columns: 25% auto;
+  grid-template-areas:
+    "foto profiel"
+    "contact ervaring"
+    "skills ervaring"
+    "opleiding werkerv"
+    "taal werkerv";
 }
-.gegevens{
-    text-align: center;
+.cv-border {
+  border: #747373 solid 1px;
+  padding: 15px;
+  background-color: #536271;
 }
-#contactgegevens{
-    text-align: left;
+#cv-foto {
+  grid-area: "foto";
+  background-color: #2c3d55;
 }
-.linkKnop{
-    background-color: #747373;
-    border: solid 1px #747373;
-    border-radius: 20px;
-    width: max-content;
-    padding: 10px;
-    color: blue;
-    margin: 0 auto;
+#cv-profiel {
+  grid-area: "profiel";
 }
-.linkKnop a:visited{
-    color: blue;
+#cv-contact {
+  grid-area: "contact";
+}
+#cv-ervaring {
+  grid-area: "ervaring";
+}
+#cv-skills {
+  grid-area: "skills";
+}
+#cv-opleiding {
+  grid-area: "opleiding";
+}
+#cv-werkervaring {
+  grid-area: "werkerv";
+}
+#cv-taalkennis {
+  grid-area: "taal";
+}
+.startText {
+  padding: 15px;
+  border: #747373 solid 1px;
+  border-radius: 20px;
+  background-color: #536271;
+}
+.startText h2 {
+  text-align: center;
+}
+.gegevens {
+  text-align: center;
+}
+#contactgegevens {
+  text-align: left;
+}
+.linkKnop {
+  background-color: #747373;
+  border: solid 1px #747373;
+  border-radius: 20px;
+  width: max-content;
+  padding: 10px;
+  color: blue;
+  margin: 0 auto;
+}
+.linkKnop a:visited {
+  color: blue;
 }
