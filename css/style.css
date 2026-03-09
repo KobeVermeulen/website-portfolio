@@ -6,7 +6,7 @@ body {
 #index {
   background-image: url(../img/code.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -132,6 +132,12 @@ ul {
   text-align: center;
 }
 #contactgegevens {
+  text-align: left;
+}
+#contactgegevens a{
+  color: black;
+}
+.contactForm{
   text-align: left;
 }
 .linkKnop {

@@ -32,10 +32,26 @@
         </div>
         <div class="gegevens">
           <h2>Gegevens</h2>
-          <p id="contactgegevens">
-            email: <br />
-            telefoon:
-          </p>
+          <p id="contactgegevens">Email: <a href="r1129470@student.thomasmore.be">r1129470@student.thomasmore.be</a></p>
+          <form class="contactForm" action="">
+            <div>
+              <label for="naam">Naam: </label> <br>
+              <input type="text" name="naam" id="naam" />
+            </div>
+            <div>
+              <label for="email">Email: </label> <br>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div>
+              <label for="onderwerp">Onderwerp: </label> <br>
+              <input type="text" name="onderwerp" id="onderwerp" />
+            </div>
+            <div>
+              <label for="vraag">Vraag: </label> <br>
+              <textarea type="text" name="vraag" id="vraag"></textarea>
+            </div>
+            <input type="submit" value="submit" />
+          </form>
         </div>
       </div>
     </div>
