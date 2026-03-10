@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-#contact {
+#contact, #interesses {
   background-color: #2c3d55;
 }
 #cv {
@@ -50,6 +50,25 @@ ul {
   text-align: center;
   color: white;
 }
+.zelfFoto{
+  border-radius: 50%;
+  border: #747373 2px solid;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+}
+.interesse-foto{
+  width: 100%;
+}
+.foto-div{
+  display: flex;
+  justify-content: right;
+  margin-right: 10px;
+}
+.cv-foto{
+  display: flex;
+  justify-content: center;
+}
 .flexdiv {
   display: flex;
   flex-wrap: wrap;
@@ -63,6 +82,12 @@ ul {
   grid-gap: 50px;
   padding: 15px;
   border-top: #747373 solid 1px;
+}
+.container-int{
+  grid-template-columns: 25% auto;
+  background-color: #536271;
+  border-radius: 50px;
+  border: #747373 solid 2px;
 }
 .contact-div {
   background-color: #536271;
@@ -94,29 +119,29 @@ ul {
   padding: 15px;
   background-color: #536271;
 }
-#cv-foto {
+.cv-foto {
   grid-area: "foto";
   background-color: #2c3d55;
 }
-#cv-profiel {
+.cv-profiel {
   grid-area: "profiel";
 }
-#cv-contact {
+.cv-contact {
   grid-area: "contact";
 }
-#cv-ervaring {
+.cv-ervaring {
   grid-area: "ervaring";
 }
-#cv-skills {
+.cv-skills {
   grid-area: "skills";
 }
-#cv-opleiding {
+.cv-opleiding {
   grid-area: "opleiding";
 }
-#cv-werkervaring {
+.cv-werkervaring {
   grid-area: "werkerv";
 }
-#cv-taalkennis {
+.cv-taalkennis {
   grid-area: "taal";
 }
 .startText {
