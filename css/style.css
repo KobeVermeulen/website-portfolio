@@ -12,7 +12,8 @@ body {
   flex-direction: column;
 }
 #contact,
-#interesses {
+#interesses,
+#ervaring {
   background-color: #2c3d55;
 }
 #cv a {
@@ -80,7 +81,7 @@ ul {
   padding: 15px;
   border-top: #747373 solid 1px;
 }
-.container-int {
+.container-int, .container-erv {
   grid-template-columns: 25% auto;
   background-color: #536271;
   border-radius: 50px;
