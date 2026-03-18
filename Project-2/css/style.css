@@ -1,0 +1,187 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+#index {
+  background-image: url(../img/code.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#contact,
+#interesses,
+#ervaring {
+  background-color: #2c3d55;
+}
+#cv a {
+  color: black;
+}
+.navBar {
+  background-color: #2c3d55;
+  overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.navBar {
+  border: #747373 1px solid;
+  border-top: #747373 0 solid;
+  position: sticky;
+  top: 0;
+}
+.navBar a {
+  padding: 15px;
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-right: 1px solid #747373;
+}
+.navBar a:hover {
+  background-color: #536271;
+}
+.current {
+  background-color: #536271;
+}
+.hoofdTitel {
+  text-align: center;
+  color: white;
+}
+.zelfFoto {
+  border-radius: 50%;
+  border: #747373 2px solid;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+}
+.interesse-foto {
+  width: 100%;
+}
+.foto-div {
+  display: flex;
+  justify-content: right;
+  margin-right: 10px;
+}
+.flexdiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.container {
+  margin-top: 10%;
+  background-color: #2c3d55;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+  padding: 15px;
+  border-top: #747373 solid 1px;
+}
+.container-int, .container-erv {
+  grid-template-columns: 25% auto;
+  background-color: #536271;
+  border-radius: 50px;
+  border: #747373 solid 2px;
+}
+.contact-div {
+  background-color: #536271;
+  border: none;
+  margin-top: auto;
+  grid-template-columns: 25% auto;
+}
+.padding-bottom {
+  height: auto;
+  flex: 1;
+  margin-top: 0;
+  border-top: none;
+}
+.container-cv {
+  grid-gap: 0;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  grid-template-columns: 25% auto;
+  grid-template-areas:
+    "foto profiel"
+    "contact ervaring"
+    "skills ervaring"
+    "opleiding werkerv"
+    "taal werkerv";
+}
+.cv-border {
+  border: #747373 solid 1px;
+  padding: 15px;
+  background-color: #536271;
+}
+.cv-foto {
+  grid-area: foto;
+  background-color: #2c3d55;
+  display: flex;
+  justify-content: center;
+}
+.cv-profiel {
+  grid-area: profiel;
+}
+.cv-contact {
+  grid-area: contact;
+}
+.cv-ervaring {
+  grid-area: ervaring;
+}
+.cv-skills {
+  grid-area: skills;
+}
+.cv-opleiding {
+  grid-area: opleiding;
+}
+.cv-werkervaring {
+  grid-area: werkerv;
+}
+.cv-taalkennis {
+  grid-area: taal;
+}
+th {
+  border: 1px solid #747373;
+  border-radius: 50%;
+  padding: 15px;
+}
+.geel {
+  background-color: yellow;
+}
+.startText {
+  padding: 15px;
+  border: #747373 solid 1px;
+  border-radius: 20px;
+  background-color: #536271;
+}
+.startText h2 {
+  text-align: center;
+}
+.gegevens {
+  text-align: center;
+}
+#contactgegevens {
+  text-align: left;
+}
+#contactgegevens a {
+  color: black;
+}
+.contactForm {
+  text-align: left;
+}
+.linkKnop {
+  background-color: #747373;
+  border: solid 1px #747373;
+  border-radius: 20px;
+  width: max-content;
+  padding: 10px;
+  color: blue;
+  margin: 0 auto;
+}
+.linkKnop a:visited {
+  color: blue;
+}
