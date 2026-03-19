@@ -18,127 +18,174 @@
     ></script>
   </head>
   <body id="cv">
-    <div class="navBar">
-      <ul>
-        <li><a href="index.html">Over mij</a></li>
-        <li><a class="current" href="cv.html">Cv</a></li>
-        <li><a href="ervaring.html">Ervaring</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="interesses.html">Interesses</a></li>
-      </ul>
-    </div>
-    <div class="container container-cv">
-      <div class="cv-border cv-foto">
-        <img class="zelfFoto cv-foto" src="img/zelf-foto.jpg" alt="" />
-      </div>
-      <div class="cv-border cv-profiel">
-        <h3>Profiel</h3>
-        <p>
-          Student graduaat programmeren met ervaring in c#, html, css en sql. Ik
-          zoek een rol waarin ik innovatieve en gebruiksvriendelijke
-          webapplicaties kan ontwikkelen.
-        </p>
-      </div>
-      <div class="cv-border cv-contact">
-        <h3>Contact gegevens</h3>
-        <p>
-          Email:
-          <a href="r1129470@student.thomasmore.be"
-            >r1129470@student.thomasmore.be</a
+    <div class="container">
+      <nav class="navbar navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Kobe Vermeulen</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
           >
-        </p>
-        <a href="contact.html">Meer informatie</a>
-      </div>
-      <div class="cv-border cv-ervaring">
-        <h3>Ervaring</h3>
-        <p>
-          Informatie over mijn projecten kan je
-          <a href="ervaring.html">hier</a> terug vinden.
-        </p>
-      </div>
-      <div class="cv-border cv-skills">
-        <h3>Skills</h3>
-        <p>
-          Basis kennis van c#, html, css, sql en python. <br /><br />Veel geduld
-          <br /><br />Punctueel
-        </p>
-      </div>
-      <div class="cv-border cv-opleiding">
-        <h3>Opleiding</h3>
-        <h4>Moderne talen en wetenschappen keuze STEM</h4>
-        <h5>2020-2022|Heilig Hart van Maria Berlaar</h5>
-        <h4>Office en Retail</h4>
-        <h5>2022-2025|Heilig-Hartcollege Heist-Op-Den-Berg</h5>
-        <h4>Graduaat programmeren</h4>
-        <h5>Nu|Thomas More Lier</h5>
-      </div>
-      <div class="cv-border cv-werkervaring">
-        <h3>Werkervaring</h3>
-        <h4>Office</h4>
-        <p>
-          1 jaar stage in totaal bij verschillende bedrijven voor mijn opleiding
-          office en retail.
-        </p>
-        <h4>Retail</h4>
-        <p>
-          1 jaar stage in totaal bij verschillende bedrijven voor mijn opleiding
-          office en retail.
-        </p>
-      </div>
-      <div class="cv-border cv-taalkennis">
-        <h3>Taalkennis</h3>
-        <div>
-          <table>
-            <caption>
-              Nederlands
-            </caption>
-            <tr>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-            </tr>
-          </table>
-          <table>
-            <caption>
-              Engels
-            </caption>
-            <tr>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th></th>
-            </tr>
-          </table>
-          <table>
-            <caption>
-              Frans
-            </caption>
-            <tr>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th class="geel"></th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-            </tr>
-          </table>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Portfolio
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="cv.html"
+                    >Cv</a
+                  >
+                </li>
+                <li>
+                  <a class="nav-link" href="ervaring.html">Ervaring</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="interesses.html">Interesses</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container container-cv">
+        <div class="cv-border cv-foto">
+          <img class="zelfFoto cv-foto" src="img/zelf-foto.jpg" alt="" />
+        </div>
+        <div class="cv-border cv-profiel">
+          <h3>Profiel</h3>
+          <p>
+            Student graduaat programmeren met ervaring in c#, html, css en sql.
+            Ik zoek een rol waarin ik innovatieve en gebruiksvriendelijke
+            webapplicaties kan ontwikkelen.
+          </p>
+        </div>
+        <div class="cv-border cv-contact">
+          <h3>Contact gegevens</h3>
+          <p>
+            Email:
+            <a href="r1129470@student.thomasmore.be"
+              >r1129470@student.thomasmore.be</a
+            >
+          </p>
+          <a href="contact.html">Meer informatie</a>
+        </div>
+        <div class="cv-border cv-ervaring">
+          <h3>Ervaring</h3>
+          <p>
+            Informatie over mijn projecten kan je
+            <a href="ervaring.html">hier</a> terug vinden.
+          </p>
+        </div>
+        <div class="cv-border cv-skills">
+          <h3>Skills</h3>
+          <p>
+            Basis kennis van c#, html, css, sql en python. <br /><br />Veel
+            geduld <br /><br />Punctueel
+          </p>
+        </div>
+        <div class="cv-border cv-opleiding">
+          <h3>Opleiding</h3>
+          <h4>Moderne talen en wetenschappen keuze STEM</h4>
+          <h5>2020-2022|Heilig Hart van Maria Berlaar</h5>
+          <h4>Office en Retail</h4>
+          <h5>2022-2025|Heilig-Hartcollege Heist-Op-Den-Berg</h5>
+          <h4>Graduaat programmeren</h4>
+          <h5>Nu|Thomas More Lier</h5>
+        </div>
+        <div class="cv-border cv-werkervaring">
+          <h3>Werkervaring</h3>
+          <h4>Office</h4>
+          <p>
+            1 jaar stage in totaal bij verschillende bedrijven voor mijn
+            opleiding office en retail.
+          </p>
+          <h4>Retail</h4>
+          <p>
+            1 jaar stage in totaal bij verschillende bedrijven voor mijn
+            opleiding office en retail.
+          </p>
+        </div>
+        <div class="cv-border cv-taalkennis">
+          <h3>Taalkennis</h3>
+          <div>
+            <table>
+              <caption>
+                Nederlands
+              </caption>
+              <tr>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+              </tr>
+            </table>
+            <table>
+              <caption>
+                Engels
+              </caption>
+              <tr>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th></th>
+              </tr>
+            </table>
+            <table>
+              <caption>
+                Frans
+              </caption>
+              <tr>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th class="geel"></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>
