@@ -1,9 +1,4 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-#index{
-  background-image: url(/img/code.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
 .bg-custom{
-  background-color: #536271;
+  background-color: #2e3a46;
 }

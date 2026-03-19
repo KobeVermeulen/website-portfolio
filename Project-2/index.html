@@ -17,7 +17,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body id="index">
+  <body class="bg-custom">
     <nav class="navbar navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Kobe Vermeulen</a>
@@ -71,49 +71,80 @@
       </div>
     </nav>
     <div class="container text-light">
-      <div class="p-5">
-        <h1 class="text-center"><strong>Portfolio</strong></h1>
-        <img
-          class="img-fluid w-25 m-3 rounded-circle"
-          src="img/zelf-foto.jpg"
-          alt="zelfFoto"
-        />
+      <div class="row p-5">
+        <div class="col col-9">
+          <h1 class="text-center"><strong>Mijn portfolio</strong></h1>
+          <p>
+            Welkom bij mijn website Portfolio, hier kan u alles over mijn vinden
+            van mijn ervaring tot interesses. Als u interesse hebt om contact op
+            te nemen dan kan u dat met de onderstaanda knop doen.
+          </p>
+          <a class="btn btn-primary" href="contact.html">Neem contact op.</a>
+        </div>
+        <div class="col align-items-center">
+          <img
+            class="img-fluid m-3 rounded-circle"
+            src="img/zelf-foto.jpg"
+            alt="zelfFoto"
+          />
+        </div>
       </div>
-      <div class="bg-dark p-5">
-        <div class="row gap-3">
-          <div class="col bg-custom rounded-3 p-3">
-            <h2><strong>Skills</strong></h2>
-            <p>
-              In mijn opleiding heb ik de basis van css, html en c# geleerd.
-              Voordat ik met mijn opleiding begon heb ik ook zelf de basis van
-              python geleerd. Meer informatie kan je vinden op mijn cv.
-            </p>
-            <div class="text-center">
-              <strong
-                ><a class="btn btn-light" href="cv.html">Mijn cv</a></strong
+      <div class="bg-dark p-5 rounded-top-3">
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="img/laptop.png"
+              class="card-img-top bg-dark"
+              alt="afbeelding laptop"
+            />
+            <div class="card-body bg-dark text-light">
+              <h5 class="card-title">Over mij</h5>
+              <p class="card-text">
+                Ik ben Kobe, ik ben een student programmeur in een graduaat
+                opleiding. Mijn interesses liggen vooral bij computers zoals
+                gamen en programmeren maar ook computer hardware. Meer
+                informatie kan je vinden in de onderstaande pagina.
+              </p>
+              <a class="btn btn-light" href="interesses.html"
+                >Mijn interesses</a
               >
             </div>
           </div>
-          <div class="col bg-custom rounded-3 p-3">
-            <h2><strong>Over mij</strong></h2>
-            <p>
-              Ik ben Kobe, ik ben een student programmeur in een graduaat
-              opleiding. Mijn interesses liggen vooral bij computers zoals gamen
-              en programmeren maar ook computer hardware. Meer informatie kan je
-              vinden in de onderstaande pagina.
-            </p>
-            <div class="text-center p-3">
-              <strong
-                ><a class="btn btn-light" href="interesses.html"
-                  >Mijn interesses</a
-                ></strong
-              >
+          <div class="card">
+            <img
+              src="img/Csharp_Logo.png"
+              class="card-img-top img-size bg-dark"
+              alt="logo c sharp"
+            />
+            <div class="card-body bg-dark text-light">
+              <h5 class="card-title">Skills</h5>
+              <p class="card-text">
+                In mijn opleiding heb ik de basis van css, html en c# geleerd.
+                Voordat ik met mijn opleiding begon heb ik ook zelf de basis van
+                python geleerd. Meer informatie kan je vinden op mijn cv.
+              </p>
+              <a class="btn btn-light" href="cv.html">Mijn cv</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="img/programmeren.png"
+              class="card-img-top bg-dark"
+              alt=""
+            />
+            <div class="card-body bg-dark text-light">
+              <h5 class="card-title">Ervaring</h5>
+              <p class="card-text">
+                Op de onderstaande pagina kan je mijn projecten vinden die ik
+                als opdracht of in mijn vrije tijd heb gemaakt.
+              </p>
+              <a class="btn btn-light" href="ervaring.html">mijn projecten</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <footer class="bg-dark text-light sticky-bottom row p-2">
+    <footer class="bg-dark text-light sticky-bottom row p-2 m-0">
       <div class="col">
         <p>&copy; Kobe Vermeulen</p>
       </div>
