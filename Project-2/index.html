@@ -18,83 +18,83 @@
     ></script>
   </head>
   <body id="index">
-    <div class="container">
-      <nav class="navbar navbar-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Kobe Vermeulen</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                Portfolio
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="index.html"
-                    >Portfolio</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="cv.html">Cv</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="ervaring.html">Ervaring</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="interesses.html">Interesses</a>
-                </li>
-              </ul>
-            </div>
+    <nav class="navbar navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Kobe Vermeulen</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header bg-dark text-light">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Portfolio</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body bg-dark">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cv.html">Cv</a>
+              </li>
+              <li>
+                <a class="nav-link" href="ervaring.html">Ervaring</a>
+              </li>
+              <li>
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li>
+                <a class="nav-link" href="interesses.html">Interesses</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
-
-      <h1 class="hoofdTitel"><strong>Portfolio</strong></h1>
-      <div class="foto-div">
-        <img class="zelfFoto" src="img/zelf-foto.jpg" alt="zelfFoto" />
       </div>
-      <div class="flexdiv">
-        <div class="container">
-          <div class="startText">
+    </nav>
+    <div class="container text-light">
+      <div class="p-5">
+        <h1 class="text-center"><strong>Portfolio</strong></h1>
+        <img
+          class="img-fluid w-25 m-3 rounded-circle"
+          src="img/zelf-foto.jpg"
+          alt="zelfFoto"
+        />
+      </div>
+      <div class="bg-dark p-5">
+        <div class="row gap-3">
+          <div class="col bg-custom rounded-3 p-3">
             <h2><strong>Skills</strong></h2>
             <p>
               In mijn opleiding heb ik de basis van css, html en c# geleerd.
               Voordat ik met mijn opleiding begon heb ik ook zelf de basis van
               python geleerd. Meer informatie kan je vinden op mijn cv.
             </p>
-            <div class="linkKnop">
-              <strong><a href="cv.html">Mijn cv</a></strong>
+            <div class="text-center">
+              <strong
+                ><a class="btn btn-light" href="cv.html">Mijn cv</a></strong
+              >
             </div>
           </div>
-          <div class="startText">
+          <div class="col bg-custom rounded-3 p-3">
             <h2><strong>Over mij</strong></h2>
             <p>
               Ik ben Kobe, ik ben een student programmeur in een graduaat
@@ -102,13 +102,30 @@
               en programmeren maar ook computer hardware. Meer informatie kan je
               vinden in de onderstaande pagina.
             </p>
-            <div class="linkKnop">
-              <strong><a href="interesses.html">Mijn interesses</a></strong>
+            <div class="text-center p-3">
+              <strong
+                ><a class="btn btn-light" href="interesses.html"
+                  >Mijn interesses</a
+                ></strong
+              >
             </div>
           </div>
         </div>
-        <div class="container padding-bottom"></div>
       </div>
     </div>
+    <footer class="bg-dark text-light sticky-bottom row p-2">
+      <div class="col">
+        <p>&copy; Kobe Vermeulen</p>
+      </div>
+      <div class="col">
+        <p>
+          <i class="bi bi-envelope-at-fill">
+            <a class="text-light" href="r1129470@student.thomasmore.be"
+              >r1129470@student.thomasmore.be</a
+            ></i
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
