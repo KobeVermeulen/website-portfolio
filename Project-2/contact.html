@@ -16,126 +16,182 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="js/validate.js"></script>
   </head>
-  <body id="contact">
-    <div class="container">
-      <nav class="navbar navbar-dark bg-dark sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Kobe Vermeulen</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header bg-dark text-light">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                Portfolio
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body bg-dark">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="cv.html">Cv</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="ervaring.html">Ervaring</a>
-                </li>
-                <li>
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="contact.html"
-                    >Contact</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" href="interesses.html">Interesses</a>
-                </li>
-              </ul>
-            </div>
+  <body class="bg-custom text-light">
+    <nav class="navbar navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Kobe Vermeulen</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header bg-dark text-light">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Portfolio</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
           </div>
-        </div>
-      </nav>
-      <h1 class="hoofdTitel">Contact</h1>
-      <div class="startText">
-        <div class="container contact-div">
-          <div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5577.7409592116155!2d4.560234340413502!3d51.13212775671133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3fc7d3dedf437%3A0x98e97032e240eff9!2sThomas%20More%20-%20Campus%20Lier!5e0!3m2!1snl!2sbe!4v1772802698726!5m2!1snl!2sbe"
-              width="400"
-              height="300"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-          <div class="gegevens">
-            <h2>Gegevens</h2>
-            <p id="contactgegevens">
-              Email:
-              <a href="r1129470@student.thomasmore.be"
-                >r1129470@student.thomasmore.be</a
-              >
-            </p>
-            <form class="contactForm" action="">
-              <div>
-                <label for="naam">Naam: </label> <br />
-                <input type="text" name="naam" id="naam" />
-              </div>
-              <div>
-                <label for="email">Email: </label> <br />
-                <input type="email" name="email" id="email" required />
-              </div>
-              <div>
-                <label for="onderwerp">Onderwerp: </label> <br />
-                <input type="text" name="onderwerp" id="onderwerp" />
-              </div>
-              <div>
-                <label for="vraag">Vraag: </label> <br />
-                <textarea type="text" name="vraag" id="vraag"></textarea>
-              </div>
-              <input type="submit" value="submit" />
-            </form>
+          <div class="offcanvas-body bg-dark">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cv.html">Cv</a>
+              </li>
+              <li>
+                <a class="nav-link" href="ervaring.html">Ervaring</a>
+              </li>
+              <li>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a class="nav-link" href="interesses.html">Interesses</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
+    </nav>
+    <div class="container-fluid">
+      <h1 class="text-center border-bottom border-3">Contact</h1>
+      <div class="row">
+        <div class="col-3">
+          <iframe
+            class="w-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2667.7080311413606!2d4.5635289313566965!3d51.13396138153286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3fc7d3dedf437%3A0x98e97032e240eff9!2sThomas%20More%20-%20Campus%20Lier!5e0!3m2!1snl!2sbe!4v1774121883359!5m2!1snl!2sbe"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="col-3">
+          <h3>Gegevens:</h3>
+          <p>
+            Naam: Vermeulen <br />Voornaam: Kobe <br />Studierichting: Graduaat
+            Programmeren <br />Adres: Antwerpsestraat 99, 2500 Lier <br />Land:
+            België <br />
+            Email:
+            <a class="text-light" href="mailto:r1129470@student.thomasmore.be"
+              >r1129470@student.thomasmore.be</a
+            >
+            <br />GitHub:
+            <a class="text-light" href="https://github.com/KobeVermeulen">
+              KobeVermeulen</a
+            >
+          </p>
+        </div>
+        <div class="col-3">
+          <form
+            class="needs-validation"
+            novalidate
+            action="https://tm-statweb.be/forms.php"
+            method="get"
+          >
+            <div class="row">
+              <div class="col-6">
+                <label for="validationCustom01" class="form-label">Naam</label>
+                <input
+                  type="text"
+                  class="form-control has-validation"
+                  id="validationCustom01"
+                  name="naam"
+                  required
+                />
+                <div class="invalid-feedback">Geef uw naam in.</div>
+              </div>
+              <div class="col-6">
+                <label for="validationCustom02" class="form-label"
+                  >Voornaam</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom02"
+                  name="voornaam"
+                  required
+                />
+                <div class="invalid-feedback">Geef uw voornaam in.</div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="validationCustom03" class="form-label"
+                >E-mailadres</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="validationCustom03"
+                placeholder="naam@voorbeeld.com"
+                name="email"
+                required
+              />
+              <div class="invalid-feedback">Geef uw e-mailadres in.</div>
+            </div>
+            <div class="mb-3">
+              <label for="validationCustom04" class="form-label"
+                >Interesse in skills</label
+              >
+              <select name="select" class="form-select" id="validationCustom04">
+                <option selected disabled value=""></option>
+                <option>Website design</option>
+                <option>C# applicaties</option>
+                <option>Databases</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="validationCustom05" class="form-label">Vraag</label>
+              <textarea
+                class="form-control"
+                name="vraag"
+                id="validationCustom05"
+                rows="4"
+              ></textarea>
+            </div>
+            <button class="btn btn-secondary" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
-    <footer class="bg-dark text-light sticky-bottom row p-2 m-0">
+    <footer class="bg-dark text-light fixed-bottom row p-2 m-0">
       <div class="col">
         <p>&copy; Kobe Vermeulen</p>
       </div>
       <div class="col">
         <p>
           <i class="bi bi-envelope-at-fill">
-            <a class="text-light" href="r1129470@student.thomasmore.be"
+            <a class="text-light" href="mailto:r1129470@student.thomasmore.be"
               >r1129470@student.thomasmore.be</a
             ></i
           >
           <br />
           <i class="bi bi-github">
             <a class="text-light" href="https://github.com/KobeVermeulen">
-              Mijn GitHub profiel</a
+              KobeVermeulen</a
             ></i
           >
         </p>
